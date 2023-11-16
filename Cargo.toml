@@ -1,0 +1,11 @@
+[package]
+name = "occ_waffle_plates"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.75"
+glam = "0.23.0"
+opencascade = { git = "https://github.com/bschwind/opencascade-rs.git", rev = "b6c7a05" }
